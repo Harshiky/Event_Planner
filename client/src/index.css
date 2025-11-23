@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* simple variables */
+:root {
+  --bg: #0b1020;
+  --card: #0f1724;
+  --muted: #9aa4b2;
+  --accent: #8b5cf6;
+}
+
+body {
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: var(--bg);
+  color: white;
+  margin: 0;
+}
