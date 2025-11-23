@@ -1,6 +1,4 @@
-# Local Development Guide
-
-This project was built on the Youware platform. To run it locally in VS Code, follow these steps.
+Modern AI-powered Event Planner Web App
 
 ## 1. Prerequisites
 - Node.js (v18 or higher)
