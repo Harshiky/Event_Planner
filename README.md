@@ -1,27 +1,30 @@
-Modern AI-powered Event Planner Web App
+# Modern AI-Powered Event Planner Web App
 
-## 1. Prerequisites
-- Node.js (v18 or higher)
-- npm (comes with Node.js)
-- A Google Gemini API Key (Get one here: https://aistudio.google.com/app/apikey)
+A full-stack web application that generates detailed event plans using AI. Includes a React frontend, Node.js/Express backend, and integration with Google Gemini API for AI-powered planning.
 
-## 2. Installation
-1.  Unzip the downloaded project.
-2.  Open the folder in VS Code.
-3.  Open a terminal and run:
-    ```bash
-    npm install
-    ```
+---
 
-## 3. Configure AI for Local Use
-The project currently uses `sk-YOUWARE` which only works inside the Youware platform. You need to switch to the direct Google provider.
+## 1. Features
 
-1.  Install the Google provider:
-    ```bash
-    npm install @ai-sdk/google
-    ```
+- Select event type (Birthday, School Event, Wedding, etc.)  
+- Input custom budget (optional)  
+- AI-generated step-by-step plan  
+- Detailed to-do checklist with estimated costs  
+- Total budget calculation  
+- Theme ideas and extra tips in `expandedDetails`  
+- Dark/light mode toggle  
+- Backend API for future persistence and extension  
 
-2.  Open `src/services/aiEventService.ts`.
+---
+
+## 2. Prerequisites
+
+- **Node.js** v18 or higher  
+- **npm** (comes with Node.js)  
+- **Google Gemini API Key** ([Get one here](https://aistudio.google.com/app/apikey))  
+
+---
+
 
 3.  **Replace** the imports and client setup:
 
